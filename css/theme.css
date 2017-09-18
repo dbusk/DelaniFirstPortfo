@@ -76,8 +76,10 @@ mark {
   color: #000;
 }
 small {
-  font-size: 80%;
+  font-size: 80%; color: white
+    
 }
+
 sub,
 sup {
   font-size: 75%;
@@ -200,8 +202,8 @@ th {
   *,
   *:before,
   *:after {
-    background: transparent !important;
-    color: #000 !important;
+    background: solid !important;
+    color: #186A3B !important;
     -webkit-box-shadow: none !important;
             box-shadow: none !important;
     text-shadow: none !important;
@@ -1218,7 +1220,7 @@ h6 .small,
 .h6 .small {
   font-weight: normal;
   line-height: 1;
-  color: #999999;
+  color: #A52A2A;
 }
 h1,
 .h1,
@@ -4602,7 +4604,7 @@ fieldset[disabled] .navbar-default .btn-link:focus {
 .navbar-inverse .navbar-brand:hover,
 .navbar-inverse .navbar-brand:focus {
   color: #ffffff;
-  background-color: none;
+  background-color: rgb(55, 71, 12);
 }
 .navbar-inverse .navbar-text {
   color: #ffffff;
@@ -5482,7 +5484,7 @@ button.list-group-item-danger.active:focus {
 .panel-title > .small,
 .panel-title > small > a,
 .panel-title > .small > a {
-  color: inherit;
+  color: rgb(55, 71, 12) ;
 }
 .panel-footer {
   padding: 10px 15px;
